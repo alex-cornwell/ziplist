@@ -11,6 +11,7 @@ function zipListTheSimpleWay(list1: unknown[], list2: unknown[]): unknown[] {
   list1.forEach((element, index) => {
     result.push(element, list2[index]);
   });
+  return result;
 }
 
 console.log(zipList([1, 2, 3], ['a', 'b', 'c']));
