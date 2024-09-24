@@ -14,5 +14,5 @@ function zipListTheSimpleWay(list1: unknown[], list2: unknown[]): unknown[] {
   return result;
 }
 
-console.log(zipList([1, 2, 3], ['a', 'b', 'c']));
-console.log(zipListTheSimpleWay([1, 2, 3], ['a', 'b', 'c']));
+console.log(zipList(['a', 'b', 'c'], [1, 2, 3]));
+console.log(zipListTheSimpleWay(['a', 'b', 'c'], [1, 2, 3]));
